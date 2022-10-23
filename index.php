@@ -120,8 +120,8 @@ include 'action.php';
                                 <td><?= $row['phone']; ?></td>
                                 <td>
                                     <a href="details.php?details=<?= $row['id']; ?>" class="badge badge-primary p-2">Details</a> |
-                                    <a href="action.php?delete=<?= $row['id']; ?>" class="badge badge-danger p-2" onclick="return confirm('Do you want delete this record?');">Delete</a> |
                                     <a href="index.php?edit=<?= $row['id']; ?>" class="badge badge-success p-2">Edit</a>
+                                    <a href="action.php?delete=<?= $row['id']; ?>" class="badge badge-danger p-2" onclick="return confirm('Do you want delete this record?');">Delete</a> |
                                 </td>
                             </tr>
                         <?php } ?>
